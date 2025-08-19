@@ -6,7 +6,7 @@ import json
 from collections import defaultdict
 
 import frappe
-from frappe import qb, scrub
+from frappe import cint, qb, scrub
 from frappe.desk.reportview import get_filters_cond, get_match_cond
 from frappe.query_builder import Criterion, CustomFunction
 from frappe.query_builder.functions import Locate
